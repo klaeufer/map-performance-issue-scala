@@ -2,11 +2,11 @@
 
 For Scala's immutable maps
 
-    m + (p, q)
+    m + (p, q) // two map entries as vararg
 
 appears to be three orders of magnitude slower than the functionally equivalent
 
-    m + p + q
+    m + p + q // separate map entries
 
 This applies to versions 2.10.6 and 2.11.7.
 
