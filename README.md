@@ -4,7 +4,7 @@ For Scala's immutable maps
 
     m + (p, q)
 
-appears to be three orders of magnitude slower than
+appears to be three orders of magnitude slower than the functionally equivalent
 
     m + p + q
 
