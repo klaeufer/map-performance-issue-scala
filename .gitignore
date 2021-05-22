@@ -25,6 +25,13 @@ local.properties
 *.iml
 .idea/
 local.sbt
+.bsp/
+.bloop/
+.metals/
+.vscode/
+project/.bloop/
+project/metals.sbt
+project/project/
 
 # Emacs files
 *~
